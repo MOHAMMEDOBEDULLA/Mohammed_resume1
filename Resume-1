@@ -1,0 +1,780 @@
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>MOHAMMED OBEDULLA</title>
+
+<style>
+
+body {
+
+    color: #000000;
+
+    background: #EEEEEE;
+
+    font: 1.1em "Times New Roman";
+
+    line-height: 1.6;
+
+    margin: 40px 0;
+
+}
+
+#resume {
+
+    margin: 0 auto;
+
+    max-width: 800px;
+
+    padding: 40px 60px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #CCCCCC;
+
+    box-shadow: 2px 2px 4px #AAAAAA;
+
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+
+}
+
+ 
+
+  .Bar {
+
+  background: lightgrey;
+
+  height: 5px;
+
+  display: block;
+
+  text-align: left;
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  border-radius: 3px;
+
+  width: 300px;
+
+}
+
+ 
+
+.Bar span {
+
+  height: 5px;
+
+  float: left;
+
+  background: #267865;
+
+}
+
+ 
+
+.dot {
+
+  height: 15px;
+
+  width: 15px;
+
+  background-color: #757888;
+
+  border-radius: 50%;
+
+  right: px;
+
+  margin-top: 0.370em;
+
+  display: inline-block;
+
+  vertical-align: baseline;
+
+  text-align: center;
+
+}
+
+ 
+
+.Hundred {
+
+  width: 100%;
+
+}
+
+ 
+
+.TwoHundred {
+
+  width: 50%;
+
+}
+
+ 
+
+.ThreeHundred {
+
+  width: 77%;
+
+}
+
+ 
+
+ 
+
+h1 {
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    font-size: 200%;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+h2 {
+
+    border-bottom: 1px solid #000000;
+
+    text-transform: uppercase;
+
+    font-size: 130%;
+
+    margin: 1em 0 0 0;
+
+    padding: 0;
+
+}
+
+h3 {
+
+    font-size: 100%;
+
+    margin: 0.8em 0 0.3em 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+p {
+
+    margin: 0 0 0.5em 0;
+
+    padding: 0;
+
+    }
+
+ul {
+
+    padding: 0;
+
+    margin: 0 1.5em;
+
+    }
+
+/* ul immediately after h1 = contact list */
+
+h1 + ul {
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 0;
+
+    }
+
+h1 + ul > li {
+
+    display: inline;
+
+    white-space: pre;
+
+    list-style-type: none;
+
+}
+
+h1 + ul > li:after {
+
+    content: "  \2022  ";
+
+}
+
+h1 + ul > li:last-child:after {
+
+    content: "";
+
+}
+
+/* p immediately after contact list = summary */
+
+h1 + ul + p {
+
+    margin: 1em 0;
+
+}
+
+@media print {
+
+    body {
+
+        font-size: 10pt;
+
+        margin: 0;
+
+        padding: 0;
+
+        background: none;
+
+    }
+
+    #resume {
+
+        margin: 0;
+
+        padding: 0;
+
+        border: 0px;
+
+        background: none;
+
+        box-shadow: none;
+
+        -webkit-box-shadow: none;
+
+    }
+
+    /* Make links black in PDF */
+
+    /* Move this outside the print block to apply this in HTML too */
+
+    a, a:link, a:visited, a:hover {
+
+        color: #000000;
+
+        text-decoration: underline;
+
+    }
+
+}
+
+@page {
+
+    /* Change margins and paper size of PDF */
+
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+
+    size: letter;
+
+    margin: 0.5in 0.8in;
+
+}
+
+@media screen and (max-width: 700px) {
+
+    body {
+
+        font-size: 16pt;
+
+        margin: 0;
+
+        padding: 0;
+
+        background: #FFFFFF !important;
+
+    }
+
+    #resume {
+
+        margin: 0;
+
+        padding: 1em;
+
+        border: 0px;
+
+        background: none;
+
+        box-shadow: none;
+
+        -webkit-box-shadow: none;
+
+    }
+
+}
+
+ 
+
+</style>
+
+</head>
+
+<body>
+
+<div id="resume">
+
+<!-- The (first) h1 will be used as the <title> of the HTML page -->
+
+<h1>MOHAMMED OBEDULLA</h1>
+
+<!-- The unordered list immediately after the h1 will be formatted on a single
+
+line. It is intended to be used for contact details -->
+
+<ul>
+
+<li><a href = "mailto: moobjuly1997@gmail.com">moobjuly1997@gmail.com</a></li>
+
+<li>(+91) 9206971787 </li>
+
+<li><a href="https://www.linkedin.com/in/mohammed-obedulla-905443178/">LinkedIn Profile</a></li>
+
+ 
+
+ <li><a href="https://github.com/MOHAMMEDOBEDULLA">GitHub Repo!</a></li>
+
+<li>BANGALORE, INDIA</li>
+
+</ul>
+
+<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
+
+is intended to be used for a short summary. -->
+
+<p>Having experience of 2+ years In a Java Application position, I have a broad knowledge of database technologies, cloud computing, and programming skills, with a focus on AWS or Azure. I am able to collaborate successfully with teams and offer solutions to stakeholders. To work for your fantastic and expert organization, I'm seeking for a career as a Java Developer or Software Engineer. I'd be incredibly analytical, technically savvy, creative, and effective at problem-solving. </p>
+
+<h2>Experience</h2>
+
+<!-- You have to wrap the "left" and "right" half of these headings in spans by
+
+hand -->
+
+<h3><span>Customer Care Engineer, SmartBear Software Inc. Bangalore</span> <span>Dec 2022 &ndash; Present</span></h3>
+
+<p>Understanding and Using AWS or Azure Cloud Platform and Services:
+
+I have hands-on experience with cloud platforms like AWS or Azure and am familiar with various cloud services such as EC2, S3, Lambda, RDS, and others. </p>
+
+<ul>
+
+<li>Respond to customer queries and concerns: As a customer service representative, I'll be responsible for addressing customer inquiries, issues, and complaints in a timely and professional manner. </li>
+
+ 
+
+<li>Make outbound calls to Customers and Employers: I'll initiate outbound calls to customers and employers, likely for various purposes, such as follow-ups, account updates, or service reminders. </li>
+
+ 
+
+<li>Provide support for data collection to enable recovery of the account for the end user: This task involves assisting customers with account recovery and possibly verifying their identity through data collection. </li>
+
+ 
+
+<li>Maintain a deep understanding of client processes and policies: It's crucial to have a comprehensive knowledge of the company's processes, policies, and services to provide accurate information to customers. </li>
+
+ 
+
+<li>Reproduce customer issues and bring up product bugs: When customers encounter issues with products or services, you should try to replicate the problem and report any product bugs or glitches to the relevant teams. </li>
+
+ 
+
+<li>Provide excellent customer service to our customers: The main objective is to ensure customers receive exceptional service, which includes being attentive, helpful, and empathetic. </li>
+
+ 
+
+<li>Exhibit a capacity for critical thinking and analysis: Being able to analyse situations critically will help you provide effective solutions and responses to customer queries. </li>
+
+ 
+
+<li>Work well independently and within a team environment: self-motivated and capable of working independently, but also collaborating effectively within a team setting. </li>
+
+ 
+
+<li>Handle inbound calls and emails from HNI (High Net Worth) customers: I'll be responsible for addressing inquiries and concerns from high-value customers and ensuring their satisfaction and retention. </li>
+
+ 
+
+<li>Meet and exceed quality guidelines and performance metrics: Meeting or surpassing established quality and performance standards is essential for delivering exceptional customer service.</li>
+
+ 
+
+<li>Take ownership of problems and ensure resolution to customer satisfaction: As a customer service representative, Have to take ownership of customer issues and ensure they are resolved to the customer's delight. </li>
+
+ 
+
+<li>Meet daily call volumes and achieve key performance indicators (KPIs): Meeting daily call targets and other KPIs is essential for ensuring efficient customer support.</li>
+
+ 
+
+<li>Function within a team environment: Collaboration within the team is crucial for providing consistent and seamless customer support. </li>
+
+ 
+
+<li>Take responsibility for performance development plans: Actively participate in performance development plans, seeking opportunities for improvement and growth. </li>
+
+ 
+
+</ul>
+
+ 
+
+ 
+
+<h3><span>Associate Software Engineer, Mobileum Software, Bangalore</span> <span>July 2020 &ndash; Sep 2021</span></h3>
+
+<p>Full Project Life Cycle Knowledge:
+
+Am able to handle all stages of the project life cycle, including solution analysis, design, development, testing, deployment, post-production support, maintenance, documentation, and end-user training. </p>
+
+<ul>
+
+    <li>Agile and Scrum framework development Environment</li>
+
+<li>Finding out the root cause of performance SQL Queries</li>
+
+<li>Worked on Revenue Assurance and Fraud Management(RAFM) with RAID Platform</li>
+
+<li>Technical analysis, development of technical specifications, and implementation </li>
+
+<li>Experience in the L2 level of Production Support</li>
+
+<li>Worked on various projects using RDBMS, SQL, UNIX, and JAVA</li>
+
+<li>Applies machine learning to customer purchase history for marketing materials</li>
+
+<li>Applications lifecycle, Log Analysis and debugging </li><li>Develop flowcharts, layouts, and documentation to identify requirements and solutions</li>
+
+</ul>
+
+ 
+
+   
+
+<h3><span>Java Developer Trainee, Code Clause, Bangalore</span> <span>Sep 2022 &ndash; Dec 2022</span></h3>
+
+<p> Utilize best practices when creating software, paying particular attention to testing, deployment, and operations. Creatively about all aspects of development.
+
+ the capacity to finish specific tasks completely on one's own while working with a larger team to achieve broader goals. </p>
+
+<ul>
+
+  <li>Worked in an Agile Environment on the iOS team with other interns</li>
+
+ <li>Used JIRA to collaborate with developers on stories.
+
+ <li>Troubleshoot and debug application logs.
+
+ <li>Collaborated with other interns on design.
+
+ <li>Used Objective-oriented to create new app features and scaled on Kubernetes
+
+</ul>
+
+ 
+
+ 
+
+   
+
+<h3><span>Developer Trainee Intern, Semantic TechLabs, Bangalore </span> <span>July 2017 &ndash; Dec 2018</span></h3>
+
+<p>Cloud computing, and database technologies, with a strong focus on AWS or Azure. </p>
+
+<ul>
+
+  <li>Worked on the Java application</li>
+
+<li>Added new features and fixed several bugs on the app</li>
+
+<li>Greenfield project to research a better way to call cars to your location</li>
+
+ 
+
+ 
+
+  </li>
+
+ 
+
+</ul>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<h2>Projects</h2>
+
+<h3><span>Cab Booking Service
+
+Website 2016 (Finalist)</span> <span>Aug 2016</span></h3>
+
+<p>To reserve cabs, customers can use an online booking platform. Customers can check profiles, explore available taxis, and book cabs using this online system. A common form of transportation that is provided by numerous different transportation companies in a given city is taxi booking. Almost everyone uses taxi services for their daily transportation needs:</p>
+
+<ul>
+
+ 
+
+<li>Using modern technologies such as Google Maps, Chrome Extension and JavaScript</li>
+
+<li>Such an amazing website that did a lot of things Integrations with Map Libraries, Postmates, Spotify, and Office 365</li>
+
+  <li>Written Code with Eclipse Framework and Used HTML, CSS and JavaScript😎 for the Web Design</li>
+
+ 
+
+</ul>
+
+ 
+
+ 
+
+<h3><span>Productive magnitude consolidated with Real-time analysis.
+
+Internship 2019-2020 </span> <span>Jul 2019</span></h3>
+
+<p>Real-time data analytics is the practice of gathering data as it occurs and applying it right away to enhance operations, enhance customer experiences, increase revenue, and more. When creating dashboards for business analysts or creating dynamic user-facing apps, software needs access to more recent data. They frequently find the game-changer and competitive differentiator they need in real-time data analytics:</p>
+
+<ul>
+
+<li>Data repository provisions and prospective activity provisions are supported with all types of security</li>
+
+  <li>All storage and payment is based on the Hybrid Cloud with AWS and Docker</li>
+
+  <a href="http://203.201.63.46:8080/jspui/bitstream/123456789/5973/1/CA1002%20-%20Productive%20magnitude%20consolidate%20with.pdf">Project Report!</a>
+
+ 
+
+</ul>
+
+ 
+
+ 
+
+ 
+
+ 
+
+<h3><span>To Do List Android Project</span> <span>Mar 2017</span></h3>
+
+<p>To-Do List project is an application specially built to keep track of errands or tasks that need to be done. This application will be like a task keeper where the user would be able to enter the tasks that they need to do. Once they are done with their tasks they can also remove them from the list:</p>
+
+<ul>
+
+  <li>An Android and PHP programming language with a focus on developers turning up</li>
+
+  <li>Implemented code on Android Studio and Templates 1.12 with on CoreOS</li>
+
+</ul>
+
+ 
+
+   
+
+<h2>Education</h2>
+
+<h3><span>CMR Institute Of Technology, MCA-(Master Of Computer Applications), Bangalore</span> <span>2018 &ndash; 2020</span></h3>
+
+<ul>
+
+  <li>GPA 4.0</li></ul>
+
+  <li>Software Applications</li>
+
+ 
+
+ 
+
+<h3><span>Bangalore University of Karnataka, BCA-(Bachelor Of Computer Applications), Kolar</span> <span>2015 &ndash; 2018</span></h3>
+
+<ul>
+
+<li>CGPA - 8.2</li>
+
+<li>Software Applications</li></ul>
+
+ 
+
+ 
+
+  <h2>SKILLS</h2>
+
+  <ul>
+
+ 
+
+   <li>Good analytical, debugging and communication skills
+
+<li>Expertise in CORE Java programming.
+
+<li>Well-versed with multithreading concepts/programming & exposure to debugging tools/techniques for profiling Java
+
+<li>In depth knowledge about Eclipse IDE including creating plugins of our own
+
+<li>Good understanding of OOPS is a MUST along with exposure to Object Oriented Design (OOD) & Analysis
+
+<li>Automate unit test cases for the newly developed features with Continuous Integration (CI) framework
+
+<li>Familiar with Agile working model and JIRA tool.
+
+<li>Experience with ServiceNow
+
+<li>Practical knowledge of IAM and Shared Security responsibilities
+
+<li>Skills working in Linux and Windows environments.
+
+<li>Analytical and problem-solving skills
+
+<li>Troubleshooting knowledge to include the areas of server operating systems and networks.
+
+<li>Documentation skills include creating and updating detailed environment design, installation, and support documentation.
+
+<li>Good communication, project & priority management, and collaboration skills
+
+<li>Knowledge of information life-cycle management concepts and best practices.
+
+<li>Knowledge about VoIP technologies (like SIP/RTP/RTCP)
+
+<li>Exposure to web-based applications
+
+<li>      Familiarity with formal design processes
+
+<li>Exposure to Cloud Platforms like Azure, AWS etc. and microservice architecture
+    </ul>
+
+<h2>Tools</h2>
+
+<ul>
+
+  <li>JAVA </li>
+
+  <li>MySQL</li>
+
+         <li>GitHub</li>
+
+          <li>Git</li>
+
+          <li>Jira</li>
+
+          <li>Google Cloud</li>
+
+          <li>ServiceNow</li>
+
+          <li>SalesForce</li>
+
+          <li>AWS AMI's</li>
+
+       
+
+          <li>Confluence</li>
+
+          <li>GitLab</li>
+
+</ul>
+
+ 
+
+  <h2>Certifications</h2>
+
+<ul>
+
+<li>Web development: HTML, CSS, JavaScript</li>
+
+  <li>IBM Workshop On” Machine Learning and AI”-2019</li>
+
+<li>Participated in Workshop On “Big Data”-2020</li>
+
+<li>Certified on AWS Machine learning-2020</li>
+
+<li>Power Bi Certified-2022</li>
+
+<li>Core Java certified by PMKVY-2021</li>
+
+</ul>
+
+ 
+
+  <h2>Languages</h2>
+
+<ul>
+
+  <div><li>English<span class="Bar"><span class="Hundred"></span></div></li>
+
+  <div><li>Kannada<span class="Bar"><span class="Hundred"></span></div></li>
+
+  <div><li>Hindi<span class="Bar"><span class="Hundred"></span></div></li>
+
+  <div><li>Telugu<span class="Bar"><span class="ThreeHundred"></span></div></li>
+
+  <div><li>Urdu<span class="Bar"><span class="ThreeHundred"></span></div></li>
+
+ 
+
+ 
+
+ 
+
+</ul>
+
+ 
+
+  <h2>Achievements</h2>
+
+<ul>
+
+<li>Ultimate Team Player-2021</li>
+
+<li>Dedicated Employee-2021</li>
+
+<li>Helping Hand Award-2020</li>
+
+<li>Running Race Medal-2017</li>
+
+<li>Recognised As Self Learner</li>
+
+</ul>
+
+ 
+
+ 
+
+ <h2>Coursework</h2>
+
+<ul>
+
+<div><li>Data Structure<span class="Bar"><span class="ThreeHundred"></span></div></li>
+
+<div><li>Algorithms<span class="Bar"><span class="Hundred"></span></div></li>
+
+  <div><li>Programming Languages<span class="Bar"><span class="ThreeHundred"></span></div></li>
+
+<div><li>Operating System<span class="Bar"><span class="ThreeHundred"></span></div></li>
+
+  <div><li>Distributed Systems<span class="Bar"><span class="Hundred"></span></div></li>
+
+<div><li>Discrete Math<span class="Bar"><span class="TwoHundred"></span></div></li>
+
+</ul> 
+
+</div>
+
+</body>
+
+</html>
